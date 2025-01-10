@@ -1,5 +1,0 @@
-ExternalSources:
-  type: "std::map<Es::Uuid, Es::Path>"
-  value:
-    - 81c79a83-45fa-4bc6-ac52-cb2f776fef1b: /Users/khushipatni/Downloads/Person002_wrap.fbx
-  options: 4
