@@ -1,0 +1,142 @@
+[
+    {
+        "Major": "Computer Science",
+        "Minor": [
+            "Machine Learning",
+            "Cyber Security"
+        ],
+        "Subjects": [
+            "Mathematics (Algebra, Calculus)",
+            "Computer Programming (Intro to Programming)",
+            "Information Technology",
+            "Physics",
+            "Statistics"
+        ],
+        "Skills": [
+            "Programming Languages (Python, Java)",
+            "Problem-Solving",
+            "Data Analysis",
+            "Critical Thinking",
+            "Attention to Detail"
+        ],
+        "Hobbies": [
+            "Coding Projects",
+            "Gaming",
+            "Robotics",
+            "Participating in Hackathons",
+            "Building Websites"
+        ]
+    },
+    {
+        "Major": "Finance",
+        "Minor": [
+            "Risk Management",
+            "Quantitative Finance"
+        ],
+        "Subjects": [
+            "Mathematics (Algebra, Calculus)",
+            "Economics",
+            "Accounting",
+            "Business Studies",
+            "Statistics"
+        ],
+        "Skills": [
+            "Financial Analysis",
+            "Quantitative Skills",
+            "Risk Assessment",
+            "Negotiation",
+            "Attention to Detail"
+        ],
+        "Hobbies": [
+            "Investing in Stocks",
+            "Participating in Finance Clubs",
+            "Reading Financial News",
+            "Personal Budgeting",
+            "Playing Strategy Games"
+        ]
+    },
+    {
+        "Major": "Marketing",
+        "Minor": [
+            "Brand Management",
+            "Affiliate Marketing"
+        ],
+        "Subjects": [
+            "Business Studies",
+            "Economics",
+            "Psychology",
+            "English (Composition and Communication)",
+            "Graphic Design"
+        ],
+        "Skills": [
+            "Creativity",
+            "Data Analysis",
+            "Communication",
+            "Social Media Proficiency",
+            "Project Management"
+        ],
+        "Hobbies": [
+            "Blogging or Vlogging",
+            "Social Media Management",
+            "Photography",
+            "Participating in Marketing Competitions",
+            "Creating Digital Art"
+        ]
+    },
+    {
+        "Major": "Medicine",
+        "Minor": [
+            "Surgery",
+            "Pediatrics"
+        ],
+        "Subjects": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Health Science",
+            "Mathematics (Statistics)"
+        ],
+        "Skills": [
+            "Diagnostic Skills",
+            "Interpersonal Skills",
+            "Critical Thinking",
+            "Time Management",
+            "Attention to Detail"
+        ],
+        "Hobbies": [
+            "Volunteering at Health Clinics",
+            "Participating in Science Fairs",
+            "Reading Medical Literature",
+            "Shadowing Healthcare Professionals",
+            "Joining Health-Related Clubs"
+        ]
+    },
+    {
+        "Major": "Law",
+        "Minor": [
+            "Litigation",
+            "Contracts"
+        ],
+        "Subjects": [
+            "Government (Civics)",
+            "History (U.S. History or World History)",
+            "English (Writing and Literature)",
+            "Economics",
+            "Debate or Public Speaking"
+        ],
+        "Skills": [
+            "Legal Research",
+            "Analytical Thinking",
+            "Negotiation",
+            "Public Speaking",
+            "Writing Skills"
+        ],
+        "Hobbies": [
+            "Participating in Debate Club",
+            "Reading Legal Thrillers",
+            "Volunteering for Advocacy Groups",
+            "Mock Trials",
+            "Engaging in Community Service"
+        ]
+    }
+]

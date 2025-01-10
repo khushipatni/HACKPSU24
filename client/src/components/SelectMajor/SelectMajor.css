@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex: 1; /* Take equal height */
+    justify-content: space-between; /* Optional: space between columns */
+}
+
+.column {
+    flex: 1; /* Take equal width */
+    border: 1px solid #ccc; /* Optional: for visual separation */
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4; /* Optional: background color */
+}
+
+
+.section-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    /* or any value you prefer */
+    margin: 20px 0;
+    border-radius: 8px;
+    /* Optional: for rounded corners */
+}

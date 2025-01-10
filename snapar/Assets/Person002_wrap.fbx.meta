@@ -1,0 +1,111 @@
+- !<AssetImportMetadata/81c79a83-45fa-4bc6-ac52-cb2f776fef1b>
+  ImportedAssetIds:
+    .hidden/defaultMat: !<reference> b9536903-3fb3-4e55-ba46-6bc8398ff2cc
+    .hidden/white: !<reference> 93441a0b-4535-4ece-b670-bec2a7d7bb44
+    1eb7ffb70bc6eff2: !<reference> b5e1f577-4c45-4f93-abb5-2a330ff64090
+    66780cf3a4dcb2b8: !<reference> d78f700a-ecf7-4ab4-9db7-de5c630ded7e
+    Materials/defaultMat: !<reference> d29c6fb7-83ef-435e-8860-ff773b264a1f
+    Materials/defaultMat|defaultMat|GraphPassInfo: !<reference> 17036503-e0f4-4573-b1f6-f56779d39e3d
+    Meshes/Person002_BaseHead_wrap_fixed_transform: !<reference> d02ebb0b-c0a3-4860-bb51-79ba1d772cdd
+    Scene: !<reference> 99f0e72a-6649-4171-971e-ab20563fd597
+    a357ea31af104f8a: !<reference> 7784552a-a5e7-4ea1-b65f-ca2a0b4d8f61
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 99f0e72a-6649-4171-971e-ab20563fd597
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 68337b85-c355-45c7-9e79-9028f2278a29
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings/19c0b33d-8952-49fc-8917-ef62d402c56e>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/7644ef74-7128-4398-bac3-6084b951c84f>
+    Presets:
+      None Compression: !<SingleCompressionSettings/95ebdab3-f20a-4c48-99f8-1d83493bc066>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/b24b3b59-fa8b-4024-962b-2be4d89bfc5d>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/159de5a3-a1ef-498a-82a4-1283c9f5a890>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/68337b85-c355-45c7-9e79-9028f2278a29>
+  SourceRemaps:
+    - 7784552a-a5e7-4ea1-b65f-ca2a0b4d8f61: eeeb5494-2bda-466b-aa1d-f51e460c662c
+    - b5e1f577-4c45-4f93-abb5-2a330ff64090: d84da831-8be2-47e2-ba11-c0a2ff5fdb37
+    - d78f700a-ecf7-4ab4-9db7-de5c630ded7e: 86ad4672-b14e-41f4-8826-48332aae2554
+  SourceState: !<own> d3d494ff-8f81-4f39-9121-ffaeaa836696
+- !<SceneObject/86ad4672-b14e-41f4-8826-48332aae2554>
+  PrefabRemaps:
+    []
+  Name: Person002_wrap
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> eeeb5494-2bda-466b-aa1d-f51e460c662c
+  Components:
+    []
+- !<ObjectPrefab/d3d494ff-8f81-4f39-9121-ffaeaa836696>
+  PackagePath: ""
+  objects:
+    - !<own> 86ad4672-b14e-41f4-8826-48332aae2554
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/d84da831-8be2-47e2-ba11-c0a2ff5fdb37>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d29c6fb7-83ef-435e-8860-ff773b264a1f
+  Mesh: !<reference> d02ebb0b-c0a3-4860-bb51-79ba1d772cdd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/eeeb5494-2bda-466b-aa1d-f51e460c662c>
+  PrefabRemaps:
+    []
+  Name: Person002_BaseHead_wrap_fixed_transform
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d84da831-8be2-47e2-ba11-c0a2ff5fdb37
